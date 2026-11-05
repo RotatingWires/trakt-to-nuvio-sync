@@ -17,7 +17,7 @@ It can:
 
 The history replacement path was added after finding a real Trakt-export compatibility bug: current exports can use `watched-movies.json`, while an older importer assumed only numbered names such as `watched-movies-1.json`. That caused watched movies to be silently omitted even though episode history imported.
 
-## Repository files
+## Project layout
 
 ```text
 trakt_lists_to_nuvio.py              Main importer
@@ -447,7 +447,7 @@ Show the complete current help with:
 python trakt_lists_to_nuvio.py --help
 ```
 
-## Testing
+## Development checks
 
 Run the regression tests with:
 
